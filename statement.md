@@ -1,19 +1,21 @@
-# Welcome!
+# Passing a function as parameter to another function
 
-This C++ template lets you get started quickly with a simple one-page playground.
+C++ has two ways to pass a function as a parameter. 
 
 ```C++ runnable
-#include <iostream>
-
+#include <bits/stdc++.h> 
 using namespace std;
 
-int main() 
+int add(int x, int y){return x+y;}
+int sub(int x, int y){return x-y;}
+int operation (int x, int y,int (*function)(int,int)){return function(x,y);}
+int operation2(int x, int y,std::function<int(int, int)> function){return function(x,y);}
+
+int main()
 {
-    cout << "Hello, World!";
-    return 0;
+    std::cout <<"Values 1 & 3. Pointer function: Add:"<<operation (1,3,&add)<<" Sub:"<<operation (1,3,&sub) << std::endl;
+    std::cout <<"Values 1 & 3. std::function   : Add:"<<operation2(1,3,&add)<<" Sub:"<<operation2(1,3,&sub) << std::endl;
 }
 ```
 
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced C++ template](https://tech.io/select-repo/598)
+As you see, you can use either operation() or operation2() to give the same result. 
