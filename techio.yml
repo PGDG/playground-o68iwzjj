@@ -1,4 +1,6 @@
-title: C++ Passing a function as parameter
+title: C++ Snippets
 plan:
-- title: C++ Snippet
+- title: List of Snippets
+  statement: list.md
+- title: C++ Passing a function as parameter
   statement: statement.md
