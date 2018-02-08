@@ -64,3 +64,4 @@ int main()
     cout << "Array filled with:"<<dynArray.back().x<<","<<dynArray.back().y<< endl;
 }
 ```
+Check [http://en.cppreference.com/w/cpp/algorithm/fill](http://en.cppreference.com/w/cpp/algorithm/fill) for more info
