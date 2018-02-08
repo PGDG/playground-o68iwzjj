@@ -1,6 +1,6 @@
 # Filling an array with some initial value
 
-***Filling an static int array
+* Filling an static int array
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -15,7 +15,7 @@ int main()
 }
 ```
 
-***Filling an vector<int> array
+* Filling an vector<int> array
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -32,7 +32,7 @@ int main()
 }
 ```
 
-***Filling an vector<class> array
+* Filling an vector<class> array
 In that case the object to initialize is a complex one. std::fill works exactly the same.
 Avoid memset as much as possible:
 ```C++ runnable
