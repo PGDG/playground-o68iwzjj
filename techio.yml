@@ -2,5 +2,7 @@ title: C++ Runnable Snippets
 plan:
 - title: List of Snippets
   statement: list.md
-- title: C++ Passing a function as parameter
+- title: Passing a function as parameter
   statement: statement.md
+- title: Filling an array with some initial value
+  statement: fill.md
