@@ -76,4 +76,4 @@ int main()
 ```
 Lambda functions are more compact, aimed as small, simple functions. But harder to reuse.
 
-Check [](http://en.cppreference.com/w/cpp/algorithm/sort) for more info
+Check [http://en.cppreference.com/w/cpp/algorithm/sort](http://en.cppreference.com/w/cpp/algorithm/sort) for more info
