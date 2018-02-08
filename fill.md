@@ -33,8 +33,11 @@ int main()
 ```
 
 * Filling a vector<class> array
+
 In that case the object to initialize is a complex one. std::fill works exactly the same.
+
 Avoid memset as much as possible:
+
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
