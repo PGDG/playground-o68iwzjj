@@ -10,6 +10,7 @@ const int InitValue = 9990;
 
 int main()
 {
+    cout << "Uninitialized Array:"<<staticArray[3000-1] << endl;
     std::fill(staticArray,staticArray+(end(staticArray) - begin(staticArray)),InitValue);
     cout << "Array filled with:"<<staticArray[3000-1] << endl;
 }
@@ -26,8 +27,8 @@ const int InitValue = 9990;
 int main()
 {
     dynArray.resize(3000);
+    cout << "Uninitialized Array:"<<dynArray.back() << endl;
     std::fill(dynArray.begin(),dynArray.end(),InitValue);
-
     cout << "Array filled with:"<<dynArray.back() << endl;
 }
 ```
