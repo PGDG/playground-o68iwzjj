@@ -58,8 +58,8 @@ const Pod InitValue(0.6f,11.2f,0.45f,0.99f);
 int main()
 {
     dynArray.resize(3000);
+    cout << "Uninitialized Vector:"<<dynArray.back().x<<","<<dynArray.back().y<< endl;
     std::fill(dynArray.begin(),dynArray.end(),InitValue);
-
     cout << "Array filled with:"<<dynArray.back().x<<","<<dynArray.back().y<< endl;
 }
 ```
