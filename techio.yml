@@ -6,3 +6,5 @@ plan:
   statement: statement.md
 - title: Filling an array with some initial value
   statement: fill.md
+- title: Sorting a vector
+  statement: sort.md
