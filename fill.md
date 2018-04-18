@@ -1,6 +1,6 @@
-# Filling an array with some initial value
+# Remplir un tableau avec des valeurs par défaut
 
-* Filling an static int array
+* Remplir un tableau static d'entiers
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -16,7 +16,7 @@ int main()
 }
 ```
 
-* Filling a vector<int> array
+* Remplir un vecteur d'entier de la librairie standard (vector<int>)
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -33,11 +33,11 @@ int main()
 }
 ```
 
-* Filling a vector<class> array
+* Remplir un vecteur de classe (vector<class>)
 
-The object for initialization is a complex one. std::fill works exactly the same.
+Ici même si l'objet de l'initialisation est complexe, la méthode std::fill se comporte exactement de la même façon.
 
-Avoid memset as much as possible:
+Utiliser memset en C++ n'est pas conseillé, en effet c'est une fonctionnalité de la librairie standard du langage C et non du C++. Dans un monde parfait personne ne l'utilise en C++:
 
 ```C++ runnable
 #include <bits/stdc++.h> 
@@ -64,4 +64,4 @@ int main()
     cout << "Array filled with:"<<dynArray.back().x<<","<<dynArray.back().y<< endl;
 }
 ```
-Check [http://en.cppreference.com/w/cpp/algorithm/fill](http://en.cppreference.com/w/cpp/algorithm/fill) for more info
+Rendez-vous [http://en.cppreference.com/w/cpp/algorithm/fill](http://en.cppreference.com/w/cpp/algorithm/fill) pour plus d'informations
