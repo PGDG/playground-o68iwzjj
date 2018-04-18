@@ -18,4 +18,4 @@ int main()
 }
 ```
 
-Comme vous pouvez le voir l'utilisation des fonction "operation()" et "operation2()" retourne le même résultat.
+Comme vous pouvez le voir l'utilisation des fonctions "operation()" et "operation2()" retourne le même résultat.
