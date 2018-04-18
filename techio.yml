@@ -1,6 +1,6 @@
 title: C++ Runnable Snippets
 plan:
-- title: List of Snippets
+- title: Morceaux de codes C++
   statement: list.md
 - title: Passing a function as parameter
   statement: statement.md
