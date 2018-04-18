@@ -56,7 +56,7 @@ vector<Pod> Data ={
 
 void printData(string MSG){
     cout << MSG<<" is: {";
-    for (auto& d:Data) cout << d.x<<","; //We'll only print x for the sake of simplicity
+    for (auto& d:Data) cout << d.x<<","; // Affichage de la valeur x
     cout << "}"<< endl;    
 }
 int SortByAbsX(const Pod& a,const Pod& b){
@@ -74,6 +74,6 @@ int main()
     printData("Function");
 }
 ```
-Les fonction lambda sont plus compactes mais elles ne sont pas réutilisables ailleur à moins d'être entièrement réécrites.
+Les fonction lambda sont plus compactes mais elles ne sont pas réutilisables ailleurs à moins d'être entièrement réécrites.
 
 Rendez-vous [http://en.cppreference.com/w/cpp/algorithm/sort](http://en.cppreference.com/w/cpp/algorithm/sort) pour plus d'informations.
