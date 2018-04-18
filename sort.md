@@ -1,6 +1,6 @@
-# Sorting a vector
+# Trier un vecteur de la librairie standard
 
-* Sorting an int vector
+* Tri d'un vecteur d'entier
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -18,17 +18,17 @@ int SortByAbs(const int& a,const int& b){
 
 int main()
 {
-    //Lambda function to sort    
+    // Utilisation de fonction lambda pour le tri
     std::sort(Data.begin(),Data.end(), [](const int& a,const int& b){return a<b;});
     printData("Lambda");
     
-    //Normal function. Sorting by absolute value  
+    // Utilisation d'une fonction "normale".  
     std::sort(Data.begin(),Data.end(), SortByAbs);
     printData("Function");
 }
 ```
 
-* Sorting an object vector by some field
+* Trier un vecteur d'objet en utilisant certains champs de celui-ci
 ```C++ runnable
 #include <bits/stdc++.h> 
 using namespace std;
@@ -65,15 +65,16 @@ int SortByAbsX(const Pod& a,const Pod& b){
 
 int main()
 {
-    //Lambda function to sort    
+    // Utilisation de fonction lambda pour le tri    
     std::sort(Data.begin(),Data.end(), [](const Pod& a,const Pod& b){return a.x<b.x;});
     printData("Lambda");
     
-    //Normal function. Sorting by absolute value  
+    // Utilisation d'une fonction "normale". 
     std::sort(Data.begin(),Data.end(), SortByAbsX);
     printData("Function");
 }
 ```
 Lambda functions are more compact, aimed as small, simple functions. But harder to reuse.
+Les fonction lambda sont plus compactes mais elles ne sont pas réutilisables ailleur à moins d'être entièrement réécrites.
 
-Check [http://en.cppreference.com/w/cpp/algorithm/sort](http://en.cppreference.com/w/cpp/algorithm/sort) for more info
+Rendez-vous [http://en.cppreference.com/w/cpp/algorithm/sort](http://en.cppreference.com/w/cpp/algorithm/sort) pour plus d'informations.
