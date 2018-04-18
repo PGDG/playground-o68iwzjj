@@ -1,6 +1,6 @@
-# Passing a function as parameter to another function
+# Passer une fonction en paramètre d'une autre
 
-C++ has two ways to pass a function as a parameter. 
+En c++ nous avons 2 manières de passer une fonction en paramètre d'une autre.
 
 ```C++ runnable
 #include <bits/stdc++.h> 
@@ -18,4 +18,4 @@ int main()
 }
 ```
 
-As you see, you can use either operation() or operation2() to give the same result. 
+Comme vous pouvez le voir l'utilisation des fonction "operation()" et "operation2()" retourne le même résultat.
