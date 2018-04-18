@@ -2,7 +2,7 @@ title: C++ Runnable Snippets
 plan:
 - title: Morceaux de codes C++
   statement: list.md
-- title: Passing a function as parameter
+- title: Passer une fonction en paramètre d'une autre
   statement: statement.md
 - title: Filling an array with some initial value
   statement: fill.md
