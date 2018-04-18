@@ -74,7 +74,6 @@ int main()
     printData("Function");
 }
 ```
-Lambda functions are more compact, aimed as small, simple functions. But harder to reuse.
 Les fonction lambda sont plus compactes mais elles ne sont pas réutilisables ailleur à moins d'être entièrement réécrites.
 
 Rendez-vous [http://en.cppreference.com/w/cpp/algorithm/sort](http://en.cppreference.com/w/cpp/algorithm/sort) pour plus d'informations.
