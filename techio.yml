@@ -6,5 +6,5 @@ plan:
   statement: statement.md
 - title: Remplir un tableau avec des valeurs par défaut
   statement: fill.md
-- title: Sorting a vector
+- title: Trier un vecteur de la librairie standard
   statement: sort.md
